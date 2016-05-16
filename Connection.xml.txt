@@ -1,0 +1,9 @@
+<Context>
+   <Resource type="javax.sql.DataSource"
+        name="jdbc/wmunitst"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        driverClassName="com.ibm.as400.access.AS400JDBCDriver"
+        url="jdbc:as400:/wmunitst"
+        username="wmesb"
+        password="wmesb"/>
+</Context>
